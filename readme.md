@@ -10,4 +10,9 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+Install docker and docker compose, clone the repository, and then do
+```
+docker-compose up
+```
+
+If the backend complains about db migrations, there will be a button to run the migrations in the error message in the browser. 
